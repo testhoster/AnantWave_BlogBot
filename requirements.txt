@@ -1,32 +1,31 @@
 # Language Model: Mistral 7B Instruct
-transformers==4.41.2
-accelerate==0.30.1
-bitsandbytes==0.43.1
+transformers
+accelerate
+bitsandbytes
 
 # Vision Model: BLIP2
-torch==2.3.0
-torchvision==0.18.0
-Pillow==10.3.0
+torch
+torchvision
+Pillow
 
 # Sentence Embeddings for RAG
-sentence-transformers==2.7.0
+sentence-transformers
 
 # Vector Database
-faiss-cpu==1.8.0
-# If using GPU: faiss-gpu==1.7.2
+faiss-cpu
+# For GPU: faiss-gpu
 
 # Document Loading & Parsing
-langchain==0.2.0
-pdfplumber==0.11.0
-unstructured==0.10.25
+langchain
+pdfplumber
+unstructured
 
-# Web App Framework (Optional)
-fastapi==0.111.0
-uvicorn==0.29.0
-
-# Optional: Streamlit alternative UI
-streamlit==1.35.0
+# Web App Framework
+streamlit
+fastapi
+uvicorn
 
 # Misc
-numpy==1.26.4
-scikit-learn==1.5.0
+numpy
+scikit-learn
+requests
